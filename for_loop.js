@@ -31,3 +31,25 @@ const Array = [];
 for (let i = 0; i < 10; i += 2) {
   Array.push(i);
 }
+
+/** count backwards with a for loop
+ * A for loop can also count backwards, so long as we can define the right conditions.
+
+In order to decrement by two each iteration, we'll need to change our initialization, condition, and final expression.
+
+We'll start at i = 10 and loop while i > 0. We'll decrement i by 2 each loop with i -= 2.
+ * 
+ */
+const ourArray = [];
+for (let i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+/**Iterate through an array with for loop */
+const myArr = [2, 3, 4, 5, 6];
+let total = 0;
+for(let i = 0; i < myArr.length; i++){
+  total = total + myArr[i]
+}
+
+/** */
