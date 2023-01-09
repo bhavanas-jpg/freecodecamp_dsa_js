@@ -1,3 +1,6 @@
+
+
+
 //Testing objects for properties::
 /** there is hasOwnProperty() to check whether the object contains the 
  * property or not
